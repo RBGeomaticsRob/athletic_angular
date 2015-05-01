@@ -1,5 +1,6 @@
 <!doctype html>
-<html lang="en">
+<!-- ng-app directive brings in the app module and sets it scope to the whole page. Notice it uses the "GitUserSearch" argument and not the githubUserSearch variable  -->
+<html lang="en" ng-app="GitUserSearch">
   <head>
     <meta charset="utf-8">
     <title>Github user search</title>
@@ -7,6 +8,7 @@
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="js/app.js"></script>
   </head>
 
   <body>
